@@ -16,6 +16,8 @@
 		CE1B8B1020DFB39300A11F99 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B0F20DFB39300A11F99 /* SwipingController.swift */; };
 		CE1B8B1220DFC8EA00A11F99 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B1120DFC8EA00A11F99 /* PageCell.swift */; };
 		CE1B8B1420DFD9D400A11F99 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B1320DFD9D400A11F99 /* Page.swift */; };
+		CE1B8B1620E097A600A11F99 /* SwipingController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B1520E097A600A11F99 /* SwipingController+extension.swift */; };
+		CE1B8B1820E0988F00A11F99 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B1720E0988F00A11F99 /* SwipingController+UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		CE1B8B0F20DFB39300A11F99 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		CE1B8B1120DFC8EA00A11F99 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		CE1B8B1320DFD9D400A11F99 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		CE1B8B1520E097A600A11F99 /* SwipingController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+extension.swift"; sourceTree = "<group>"; };
+		CE1B8B1720E0988F00A11F99 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				CE1B8AEF20DDC16700A11F99 /* AppDelegate.swift */,
 				CE1B8B0F20DFB39300A11F99 /* SwipingController.swift */,
+				CE1B8B1520E097A600A11F99 /* SwipingController+extension.swift */,
+				CE1B8B1720E0988F00A11F99 /* SwipingController+UICollectionView.swift */,
 				CE1B8B1120DFC8EA00A11F99 /* PageCell.swift */,
 				CE1B8B1320DFD9D400A11F99 /* Page.swift */,
 				CE1B8AF120DDC16700A11F99 /* ViewController.swift */,
@@ -209,8 +215,10 @@
 				CE1B8AF220DDC16700A11F99 /* ViewController.swift in Sources */,
 				CE1B8AF020DDC16700A11F99 /* AppDelegate.swift in Sources */,
 				CE1B8B1220DFC8EA00A11F99 /* PageCell.swift in Sources */,
+				CE1B8B1820E0988F00A11F99 /* SwipingController+UICollectionView.swift in Sources */,
 				CE1B8B1020DFB39300A11F99 /* SwipingController.swift in Sources */,
 				CE1B8B1420DFD9D400A11F99 /* Page.swift in Sources */,
+				CE1B8B1620E097A600A11F99 /* SwipingController+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
